@@ -1,0 +1,3 @@
+# PULL_REQUEST_TEMPLATE.md
+
+Starter documentation for Muse Desktop. Replace this placeholder with project-specific guidance.

@@ -1,0 +1,22 @@
+appId: com.yourname.musedesktop
+productName: Muse Desktop
+directories:
+  output: dist
+files:
+  - dist/**/*
+  - assets/**/*
+  - "!**/*.map"
+win:
+  target:
+    - target: nsis
+      arch: [x64, arm64]
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: Muse Desktop
+publish:
+  provider: github
+  owner: <you>
+  repo: muse-desktop
