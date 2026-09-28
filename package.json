@@ -15,12 +15,12 @@
     "check:portfolio": "python3 -c \"from pathlib import Path; r=Path('landing/portfolio'); assert all((r/x).is_file() for x in ['index.html','support.html','404.html','assets/css/main.css','assets/js/app.js']); print('portfolio routes ok')\""
   },
   "devDependencies": {
-    "electron": "^33.0.0",
-    "electron-builder": "^25.0.0",
+    "electron": "^39.8.10",
+    "electron-builder": "^26.15.3",
     "electron-updater": "^6.0.0",
     "electron-store": "^10.0.0",
     "typescript": "^5.6.0",
-    "vitest": "^2.0.0",
+    "vitest": "^3.2.6",
     "@playwright/test": "^1.48.0",
     "eslint": "^9.0.0",
     "prettier": "^3.0.0"
