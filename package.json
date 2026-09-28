@@ -10,7 +10,9 @@
     "lint": "eslint src tests",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "preview:site": "python3 -m http.server 4180 --bind 0.0.0.0 --directory landing",
+    "check:portfolio": "python3 -c \"from pathlib import Path; r=Path('landing/portfolio'); assert all((r/x).is_file() for x in ['index.html','support.html','404.html','assets/css/main.css','assets/js/app.js']); print('portfolio routes ok')\""
   },
   "devDependencies": {
     "electron": "^33.0.0",

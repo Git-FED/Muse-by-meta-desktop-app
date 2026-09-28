@@ -1,6 +1,10 @@
-# Pretty routes always resolve to designed HTML pages.
+# Muse landing routes
 /download   /download.html   200
 /security   /security.html   200
-/app        /index.html      200
 /home       /index.html      200
-/*          /404.html        404
+
+# Portfolio routes are part of this same Muse project
+/portfolio          /portfolio/index.html    200
+/portfolio/support  /portfolio/support.html  200
+/portfolio/404      /portfolio/404.html      200
+/*                  /404.html                404
