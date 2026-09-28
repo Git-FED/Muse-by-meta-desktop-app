@@ -1,1 +1,0 @@
-Muse Desktop wrapper license. See the repository LICENSE file.
