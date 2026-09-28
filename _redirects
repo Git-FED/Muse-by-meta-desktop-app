@@ -1,4 +1,6 @@
 # Pretty routes always resolve to designed HTML pages.
-/support   /support.html   200
-/home      /index.html      200
-/*         /404.html        404
+/download   /download.html   200
+/security   /security.html   200
+/app        /index.html      200
+/home       /index.html      200
+/*          /404.html        404
