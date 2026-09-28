@@ -1,0 +1,12 @@
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate entry point
+        run: test -f index.html
+      # Configure GitHub Pages or Cloudflare Pages deployment for your repository.
