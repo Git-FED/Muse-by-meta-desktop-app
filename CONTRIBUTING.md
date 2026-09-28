@@ -1,3 +1,3 @@
-# CONTRIBUTING.md
+# Contributing
 
-Starter documentation for Muse Desktop. Replace this placeholder with project-specific guidance.
+Open an issue before substantial changes. Keep changes focused, accessible, and free of secrets.

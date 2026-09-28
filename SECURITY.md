@@ -1,3 +1,3 @@
-# SECURITY.md
+# Security
 
-Starter documentation for Muse Desktop. Replace this placeholder with project-specific guidance.
+Please report security issues privately to the repository maintainers. Do not publish credentials or sensitive details in a public issue.

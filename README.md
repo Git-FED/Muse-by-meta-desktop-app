@@ -1,12 +1,6 @@
-# Muse Desktop
+# Readme
 
-An **unofficial, honest Electron wrapper** around the Muse web app for Windows. It is not an offline AI engine and is not affiliated with Meta. The app loads the web service using the user’s own login session.
+A promotional static portfolio for **fedpromptly**. Deploy the repository root to GitHub Pages or Cloudflare Pages.
 
-## Development
-
-```bash
-npm ci
-npm run dev
-```
-
-See `docs/SECURITY.md` and `docs/SIGNING.md` before distributing builds. Never instruct users to bypass SmartScreen; sign releases or build reputation over time.
+## What it is
+A lightweight HTML/CSS/JS site with no build step. `index.html` is the entry point.

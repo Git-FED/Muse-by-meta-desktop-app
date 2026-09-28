@@ -1,3 +1,3 @@
-# CHANGELOG.md
+# Changelog
 
-Starter documentation for Muse Desktop. Replace this placeholder with project-specific guidance.
+Starter document for the fedpromptly portfolio repository. Replace this placeholder with project-specific guidance as the site evolves.
