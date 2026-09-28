@@ -1,4 +1,0 @@
-const projects = [{title:'Prompt systems',text:'Reusable prompt patterns that make creative workflows clearer and more consistent.'},{title:'Product stories',text:'Landing pages and launch narratives built around what a product truly does.'},{title:'Useful automation',text:'Small tools that remove repetitive work without hiding how they operate.'}];
-document.getElementById('projects').innerHTML = projects.map(p => `<article class="project"><h3>${p.title}</h3><p>${p.text}</p></article>`).join('');
-document.getElementById('year').textContent = new Date().getFullYear();
-const gate = document.getElementById('age-gate'); if (localStorage.getItem('age-confirmed') !== 'true') gate.hidden = false; document.getElementById('confirm-age').onclick = () => { localStorage.setItem('age-confirmed','true'); gate.hidden = true; };
