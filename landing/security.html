@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d17">
+  <title>Security — Muse Desktop</title>
+  <meta name="description" content="Clear security boundaries for Muse Desktop.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing-body security-page">
+  <div class="grid-noise" aria-hidden="true"></div><div class="cursor-light" aria-hidden="true"></div><div class="scroll-meter" aria-hidden="true"><span></span></div>
+  <div class="topbar"><span class="pulse"></span><span>Unofficial community project</span><i></i><span>Windows wrapper</span><span class="topbar-status">Security notes</span></div>
+  <header class="nav shell" data-nav>
+    <a class="logo" href="./"><span class="logo-mark">M</span><span>Muse <b>Desktop</b></span><i class="logo-beacon"></i></a>
+    <nav aria-label="Primary navigation"><a href="index.html#why"><span>01</span> Why it exists</a><a href="security.html"><span>02</span> Security</a><a href="download.html"><span>03</span> Download</a></nav>
+    <a class="nav-button magnetic" href="index.html"><span>Back home</span><b>←</b></a>
+  </header>
+
+  <main>
+    <section class="hero shell security-hero" aria-labelledby="security-title">
+      <div class="hero-copy" data-reveal>
+        <div class="kicker"><span>Security</span> Clear boundaries, no theater <i></i></div>
+        <h1 id="security-title">Trust the<br><em>small print.</em></h1>
+        <p>Muse Desktop is intentionally transparent: a small wrapper around the real Muse web app, using your existing session and exposing as little as possible.</p>
+        <div class="hero-actions"><a class="button primary magnetic" href="download.html"><span>View the release</span><b>↗</b></a><a class="plain-link" href="index.html">Back to overview <span>←</span></a></div>
+        <div class="release-metadata"><span><b>✓</b> No offline model</span><span><b>✓</b> No credential storage</span></div>
+      </div>
+      <div class="security-visual" data-reveal aria-label="Animated security boundary illustration" role="img">
+        <div class="security-aura"></div><div class="security-orbit orbit-one"></div><div class="security-orbit orbit-two"></div>
+        <div class="security-shield"><span class="shield-mark">✓</span><strong>BOUNDARY<br>INTACT</strong><i></i></div>
+        <div class="security-chip chip-one"><b>01</b><span>Real web app</span></div><div class="security-chip chip-two"><b>02</b><span>Minimal bridge</span></div><div class="security-chip chip-three"><b>03</b><span>Your session</span></div>
+        <p class="scene-caption"><span>Transparent by default</span><b>Read the notes below</b></p>
+      </div>
+    </section>
+
+    <section class="security-grid shell section-rule" aria-label="Muse Desktop security principles">
+      <article data-reveal><span class="feature-number">01</span><div class="feature-glyph glyph-window">□</div><h3>It loads the real service</h3><p>Muse Desktop does not pretend to be an offline AI product. It opens the web app you already use.</p><span class="feature-tail">No hidden engine <b>↗</b></span></article>
+      <article data-reveal><span class="feature-number">02</span><div class="feature-glyph glyph-lock">⌁</div><h3>The bridge stays small</h3><p>The preload surface is intentionally minimal. Node APIs are not exposed to the renderer.</p><span class="feature-tail">Least privilege <b>↗</b></span></article>
+      <article data-reveal><span class="feature-number">03</span><div class="feature-glyph glyph-eye">◌</div><h3>Warnings stay meaningful</h3><p>Use a signed release when available. Never disable SmartScreen or bypass an unexpected warning.</p><span class="feature-tail">Install thoughtfully <b>↗</b></span></article>
+    </section>
+
+    <section class="trust-section shell section-rule security-note" aria-labelledby="notes-title">
+      <div class="trust-badge"><span>✓</span><i>OPEN<br>NOTES</i></div>
+      <div data-reveal><div class="kicker"><span>04</span> The fine print</div><h2 id="notes-title">Honest about<br><em>what it is not.</em></h2></div>
+      <div class="trust-copy" data-reveal><p>This is an unofficial community wrapper. It is not affiliated with Meta or the Muse service. It does not ask you to bypass Windows security, and it does not include credentials or a local model.</p><a class="plain-link" href="download.html">Continue to download <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer class="footer shell"><a class="logo" href="./"><span class="logo-mark">M</span><span>Muse <b>Desktop</b></span></a><span>© 2026 Muse Desktop</span><span>Security is part of the product.</span><a href="download.html">Download <b>↗</b></a></footer>
+  <script src="landing.js"></script>
+</body>
+</html>

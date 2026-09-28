@@ -1,1 +1,77 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muse Desktop</title></head><body><h1>Muse Desktop</h1><p>Unofficial desktop wrapper for the Muse web app.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d17">
+  <title>Muse Desktop — A focused desktop wrapper</title>
+  <meta name="description" content="A calm, focused Windows desktop wrapper for the Muse web app.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing-body">
+  <div class="grid-noise" aria-hidden="true"></div>
+  <div class="cursor-light" aria-hidden="true"></div>
+  <div class="scroll-meter" aria-hidden="true"><span></span></div>
+  <div class="topbar"><span class="pulse"></span><span>Unofficial community project</span><i></i><span>Windows wrapper</span><span class="topbar-status">System ready</span></div>
+  <header class="nav shell" data-nav>
+    <a class="logo" href="./"><span class="logo-mark">M</span><span>Muse <b>Desktop</b></span><i class="logo-beacon"></i></a>
+    <nav aria-label="Primary navigation"><a href="#why"><span>01</span> Why it exists</a><a href="security.html"><span>02</span> Security</a><a href="download.html"><span>03</span> Download</a></nav>
+    <a class="nav-button magnetic" href="download.html"><span>Get the app</span><b>↗</b></a>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy" data-reveal>
+        <div class="kicker"><span>01</span> A calmer way to open Muse <i></i></div>
+        <h1 id="hero-title">Your ideas,<br><em>one window.</em></h1>
+        <p>A focused Windows desktop wrapper around the Muse web app. No inflated claims. No hidden AI engine. Just a clean place to work.</p>
+        <div class="hero-actions"><a class="button primary magnetic" href="download.html"><span>Download for Windows</span><b>↗</b></a><a class="plain-link" href="#why">See what’s inside <span>↓</span></a></div>
+        <div class="micro-proof"><span><b>✓</b> Uses your existing Muse login</span><i></i><span><b>✓</b> Openly documented</span></div>
+      </div>
+
+      <div class="window-scene" data-tilt data-reveal aria-label="Interactive illustration of the Muse Desktop app window" role="img">
+        <canvas class="particle-field" data-particle-field aria-hidden="true"></canvas>
+        <div class="scene-aura"></div><div class="scene-orbit orbit-one"></div><div class="scene-orbit orbit-two"></div>
+        <div class="app-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>Muse Desktop</span><span class="window-menu">···</span></div>
+          <div class="window-body">
+            <aside><div class="side-logo">M</div><span class="side-icon active">⌂</span><span class="side-icon">⌕</span><span class="side-icon">◇</span><span class="side-icon">⚙</span></aside>
+            <div class="workspace">
+              <div class="workspace-top"><span class="workspace-label">A quiet place to think</span><span class="workspace-state"><i></i> Synced</span></div>
+              <div class="workspace-line large"></div><div class="workspace-line"></div>
+              <div class="workspace-cards"><div><i></i></div><div><i></i></div><div><i></i></div></div>
+              <div class="workspace-prompt"><span>+</span><em data-demo-label>Start a new conversation</em><b>↵</b></div>
+            </div>
+          </div>
+        </div>
+        <button class="focus-toggle" type="button" data-focus-toggle aria-pressed="false"><span class="focus-icon">✦</span><span><b>Focus mode</b><em data-focus-state>Tap to preview</em></span></button>
+        <div class="orbit-tag tag-one"><i></i> focused</div><div class="orbit-tag tag-two"><span>◇</span> private by default</div>
+        <p class="scene-caption"><span>Built around the real web app</span><b>Move your cursor</b></p>
+      </div>
+    </section>
+
+    <section id="why" class="feature-section shell section-rule" aria-labelledby="why-title">
+      <div class="section-intro" data-reveal><div class="kicker"><span>02</span> The point</div><h2 id="why-title">Less friction.<br><em>More thought.</em></h2><p>Muse Desktop stays intentionally small. It gives the web app a dedicated home without pretending to be something it isn’t.</p></div>
+      <div class="feature-grid">
+        <article data-reveal><span class="feature-number">01</span><div class="feature-glyph glyph-window">□</div><h3>One focused window</h3><p>Open Muse from your desktop instead of losing it among a dozen browser tabs.</p><span class="feature-tail">Dedicated space <b>↗</b></span></article>
+        <article data-reveal><span class="feature-number">02</span><div class="feature-glyph glyph-eye">◌</div><h3>Honest by design</h3><p>The wrapper contains no offline model or secret service. It loads the real web app.</p><span class="feature-tail">No magic layer <b>↗</b></span></article>
+        <article data-reveal><span class="feature-number">03</span><div class="feature-glyph glyph-lock">⌁</div><h3>Small, audited bridge</h3><p>Minimal preload APIs, URL allowlisting, and documented security boundaries.</p><span class="feature-tail">Clear boundaries <b>↗</b></span></article>
+      </div>
+    </section>
+
+    <section id="security" class="trust-section shell section-rule" aria-labelledby="security-title">
+      <div class="trust-badge"><span>✓</span><i>SECURE<br>BY DESIGN</i></div>
+      <div data-reveal><div class="kicker"><span>03</span> The fine print</div><h2 id="security-title">Clear about<br><em>what it is.</em></h2></div>
+      <div class="trust-copy" data-reveal><p>Muse Desktop is an unofficial wrapper. It is not affiliated with Meta, does not ship a model, and never asks you to bypass Windows security warnings.</p><a class="plain-link" href="security.html">Read the security notes <span>↗</span></a></div>
+    </section>
+
+    <section class="download-cta shell section-rule" aria-labelledby="download-title">
+      <div class="cta-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div data-reveal><div class="kicker"><span>04</span> Ready when you are</div><h2 id="download-title">Keep Muse<br><em>within reach.</em></h2></div>
+      <div class="cta-action" data-reveal><p>Download the latest release, check the notes, and make a quieter corner of your desktop.</p><a class="button primary magnetic" href="download.html"><span>View latest release</span><b>↗</b></a></div>
+    </section>
+  </main>
+  <footer class="footer shell"><a class="logo" href="./"><span class="logo-mark">M</span><span>Muse <b>Desktop</b></span></a><span>© 2026 Muse Desktop</span><span>Unofficial wrapper. Built with care.</span><a href="download.html">Download <b>↗</b></a></footer>
+  <script src="landing.js"></script>
+</body>
+</html>

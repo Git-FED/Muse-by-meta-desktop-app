@@ -1,3 +1,6 @@
-# _redirects
-
-Starter documentation for Muse Desktop. Replace this placeholder with project-specific guidance.
+# Pretty routes always resolve to designed HTML pages.
+/download   /download.html   200
+/security   /security.html   200
+/app        /index.html      200
+/home       /index.html      200
+/*          /404.html        404

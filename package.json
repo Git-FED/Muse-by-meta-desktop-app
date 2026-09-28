@@ -1,5 +1,5 @@
 {
-  "name": "muse-by-meta-desktop-app",
+  "name": "muse-desktop",
   "version": "0.1.0",
   "description": "Unofficial desktop wrapper for the Muse web app (Windows)",
   "main": "dist/main/index.js",

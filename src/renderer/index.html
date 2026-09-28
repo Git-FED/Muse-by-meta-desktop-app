@@ -1,1 +1,41 @@
-<!doctype html><html><body><div id="status">Loading Muse…</div><script type="module" src="./renderer.ts"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d17">
+  <title>Muse Desktop — A focused place to think</title>
+  <meta name="description" content="Muse Desktop gives the Muse web app a dedicated, calm home on your desktop.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="cursor-light" aria-hidden="true"></div>
+  <div class="scroll-meter" aria-hidden="true"><span></span></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Muse Desktop home"><span class="brand-mark">M</span><span>Muse <b>Desktop</b></span><i></i></a>
+    <nav aria-label="Primary navigation"><a href="#experience"><span>01</span> Experience</a><a href="#principles"><span>02</span> Principles</a><a href="#download"><span>03</span> Download</a></nav>
+    <a class="nav-cta" href="#download"><span>Get the app</span><b>↗</b></a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy" data-reveal><p class="eyebrow"><i></i> A focused desktop experience</p><h1>Your ideas,<br><em>one window.</em></h1><p class="lede">A calm, dedicated home for the Muse web app. Open it from your desktop, keep your thinking in one place, and get out of the way.</p><div class="hero-actions"><a class="button primary" href="#download"><span>Explore the app</span><b>↓</b></a><a class="text-link" href="#principles">Why Muse Desktop <span>↗</span></a></div><div class="hero-meta"><span><i></i> Uses your existing Muse session</span><span>Quiet by design</span></div></div>
+      <div class="window-scene" data-tilt data-reveal aria-label="Muse Desktop app preview" role="img"><canvas data-particle-field aria-hidden="true"></canvas><div class="scene-aura"></div><div class="scene-orbit orbit-one"></div><div class="scene-orbit orbit-two"></div><div class="app-window"><div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>Muse Desktop</span><b>···</b></div><div class="window-body"><aside><div class="side-logo">M</div><span class="side-icon active">⌂</span><span class="side-icon">⌕</span><span class="side-icon">◇</span><span class="side-icon">⚙</span></aside><div class="workspace"><div class="workspace-top"><span>A quiet place to think</span><b><i></i> Synced</b></div><h2>Make room<br><em>for the useful thought.</em></h2><div class="workspace-line large"></div><div class="workspace-line"></div><div class="workspace-cards"><div><i></i></div><div><i></i></div><div><i></i></div></div><div class="workspace-prompt"><span>+</span><em>Start a new conversation</em><b>↵</b></div></div></div></div><button class="focus-toggle" type="button" data-focus-toggle aria-pressed="false"><span>✦</span><b>Focus mode</b><em data-focus-state>Tap to preview</em></button><div class="scene-tag tag-one">focused / ready</div><div class="scene-tag tag-two">private by default</div><p class="scene-caption"><span>Built around the real web app</span><b>Move your cursor</b></p></div>
+    </section>
+
+    <div class="ticker" aria-label="Muse Desktop qualities"><div><span>Dedicated space <b>✦</b></span><span>Real Muse web app <b>✦</b></span><span>Clear boundaries <b>✦</b></span><span>Less friction <b>✦</b></span><span>Dedicated space <b>✦</b></span><span>Real Muse web app <b>✦</b></span><span>Clear boundaries <b>✦</b></span></div></div>
+
+    <section id="experience" class="section shell" aria-labelledby="experience-title"><div class="section-heading" data-reveal><div><p class="eyebrow">01 / The experience</p><h2 id="experience-title">Less friction.<br><em>More thought.</em></h2></div><p>Muse Desktop stays intentionally small: a focused wrapper that gives the real web app a dedicated home without pretending to be something it is not.</p></div><div class="feature-grid"><article data-reveal><span>01</span><strong>One focused window</strong><p>Open Muse from your desktop instead of losing it among a dozen browser tabs.</p><b>Dedicated space ↗</b></article><article data-reveal><span>02</span><strong>Honest by design</strong><p>No hidden model, no invented service layer, and no inflated claims about what the wrapper does.</p><b>No magic layer ↗</b></article><article data-reveal><span>03</span><strong>Simple bridge</strong><p>A clear, small shell around the web experience you already know, with your existing session intact.</p><b>Clear boundaries ↗</b></article></div></section>
+
+    <section id="principles" class="principles shell section" aria-labelledby="principles-title"><div class="principle-mark">M</div><div data-reveal><p class="eyebrow">02 / The principles</p><h2 id="principles-title">Clear about<br><em>what it is.</em></h2></div><div class="principle-copy" data-reveal><p>Muse Desktop is a focused wrapper around the Muse web app. It does not ship an offline model or ask you to bypass platform security warnings.</p><ul><li><span>01</span><b>Existing session</b><small>Open the experience you already use.</small></li><li><span>02</span><b>Focused home</b><small>Keep your thinking out of the tab pile.</small></li><li><span>03</span><b>Transparent scope</b><small>Know what the desktop layer does.</small></li></ul></div></section>
+
+    <section id="download" class="download-section shell" aria-labelledby="download-title"><div class="download-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div data-reveal><p class="eyebrow">03 / Ready when you are</p><h2 id="download-title">Keep Muse<br><em>within reach.</em></h2></div><div class="download-copy" data-reveal><p>Make a quieter corner of your desktop. Start with the latest release, then open the web app in a window made for focus.</p><a class="button primary" href="#top"><span>Back to the beginning</span><b>↑</b></a><a class="text-link" href="mailto:hello@muse-desktop.local">Ask a question <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer shell"><a class="brand" href="#top"><span class="brand-mark">M</span><span>Muse <b>Desktop</b></span></a><span>© 2026 Muse Desktop</span><span>Unofficial wrapper. Built with care.</span><a href="#download">Download <b>↗</b></a></footer>
+  <script type="module" src="./renderer.ts"></script>
+</body>
+</html>
